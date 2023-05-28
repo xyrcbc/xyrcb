@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+.Button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.Button a{
+    font-weight: 600;
+    font-family: Teko;
+    text-decoration: none;
+    color: goldenrod;
+    padding: 6px 15px;
+    margin: 0 10px;
+    font-size: 60px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    border-radius: 10px;
+    border: 3px solid gold;
+}
+.Button a:hover{
+    box-shadow: 10px 10px 5px;
+}
+
+
+.center-screen {
+    display: flex;
+    position: top;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+.dark_body{
+    background-image: url("Lore.jpeg");
+}
+.n{
+    text-decoration: none;
+    color: goldenrod;
+}
